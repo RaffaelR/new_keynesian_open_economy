@@ -1,0 +1,2 @@
+# new_keynesian_open_economy
+Codes for a New Keynesian Open economy model with two countries of the same size, income-tax, stochastic government spending and government debt with possibility of home bias and multiple shocks. Codes include the calculation of Ramsey_policy equilibrium; and a simple-rules economy with a routine that finds in a grid-search the parameters in these rules that maximize conditional welfare both under cooperation and non-cooperation of the authorities.
