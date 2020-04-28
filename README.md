@@ -8,4 +8,7 @@ The Simple_Rules_Cooperative branch is composed by three files:
 
 The Ramsey_Policy_Cooperative branche is composed by three files:
 - Open_NK_nl_tau_Ramsey.mod is a NK1 non-linear model with ramsey_policy function that calculates the optimal Ramsey_policy with instruments being home and foreign nominal interest rates and income-taxes. Run this routine to obtain the results.
-- find.n1 and find.n2
+- find.n1 and find.n2 calculates the value of home and foreign output, respectively, as a function of the instruments (nominal interest rates and taxes), as the steady_state in ramsey_policy is a function of the instruments.
+
+
+
