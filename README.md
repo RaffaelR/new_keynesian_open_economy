@@ -4,7 +4,8 @@ Codes for a New Keynesian Open economy model with two countries of the same size
 The Simple_Rules_Cooperative branch is composed by three files: 
 - Open_Nk_nl_OptLoop_fun.mod is a NK1 non-linear model with simple rules for home and foreign nominal interest rates and home and foreign income-tax.
 - OptParams.m is the routine that calculates the parameters in the simple-rules that maximize conditional union-wide welfare. Run this code.
-- welfare_calculator is a subroutine called by OptParams.m to run a stochastic simulation of Open_Nk_nl_OptLoop_fun.mod and calculate the conditional welfare given the values passed by OptParams.m.
+- find_func_min_point.m finds the parameters that maximize conditional welfare
+- welfare_calculator is a subroutine called by find_func_min_point.m to run a stochastic simulation of Open_Nk_nl_OptLoop_fun.mod and calculate the conditional welfare given the values passed by OptParams.m.
 
 The Ramsey_Policy_Cooperative branche is composed by three files:
 - Open_NK_nl_tau_Ramsey.mod is a NK1 non-linear model with ramsey_policy function that calculates the optimal Ramsey_policy with instruments being home and foreign nominal interest rates and income-taxes. Run this routine to obtain the results.
